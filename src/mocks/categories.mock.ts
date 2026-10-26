@@ -1,0 +1,27 @@
+import { ServiceCategory } from '../types';
+
+export const mockCategories: ServiceCategory[] = [
+  { id: 'salones', name: 'Salones & Haciendas', icon: 'business-outline', count: 14 },
+  { id: 'decoracion', name: 'Decoración & Temática', icon: 'color-palette-outline', count: 28 },
+  { id: 'fotografia', name: 'Fotografía', icon: 'camera-outline', count: 22 },
+  { id: 'video', name: 'Video & Filmación', icon: 'videocam-outline', count: 18 },
+  { id: 'catering', name: 'Catering & Banquetes', icon: 'restaurant-outline', count: 31 },
+  { id: 'pasteleria', name: 'Pastelería & Repostería', icon: 'cafe-outline', count: 19 },
+  { id: 'musica', name: 'Música en Vivo', icon: 'musical-notes-outline', count: 16 },
+  { id: 'dj', name: 'DJ & Animación Musical', icon: 'disc-outline', count: 15 },
+  { id: 'sonido', name: 'Sonido Profesional', icon: 'volume-high-outline', count: 12 },
+  { id: 'iluminacion', name: 'Iluminación Escénica', icon: 'flash-outline', count: 11 },
+  { id: 'organizadores', name: 'Organizadores / Planners', icon: 'calendar-outline', count: 9 },
+  { id: 'animadores', name: 'Animadores & Recreación', icon: 'happy-outline', count: 14 },
+  { id: 'vestuario', name: 'Vestuario & Trajes', icon: 'shirt-outline', count: 8 },
+  { id: 'maquillaje', name: 'Maquillaje & Peinado', icon: 'sparkles-outline', count: 17 },
+  { id: 'transporte', name: 'Transporte & Carros Clásicos', icon: 'car-outline', count: 6 },
+  { id: 'mobiliario', name: 'Mobiliario Lounge', icon: 'cube-outline', count: 13 },
+  { id: 'mesas-sillas', name: 'Mesas y Sillas', icon: 'grid-outline', count: 15 },
+  { id: 'invitaciones', name: 'Invitaciones Digitales e Impresas', icon: 'mail-outline', count: 10 },
+  { id: 'recuerdos', name: 'Recuerdos & Souvenirs', icon: 'gift-outline', count: 12 },
+  { id: 'flores', name: 'Arreglos Florales', icon: 'rose-outline', count: 20 },
+  { id: 'seguridad', name: 'Seguridad Privada', icon: 'shield-checkmark-outline', count: 7 },
+  { id: 'logistica', name: 'Personal Logístico & Meseros', icon: 'people-outline', count: 14 },
+  { id: 'otros', name: 'Otros Servicios Especiales', icon: 'apps-outline', count: 8 },
+];

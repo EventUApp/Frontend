@@ -1,0 +1,68 @@
+import { EventType } from '../types';
+
+export const mockEventTypes: EventType[] = [
+  {
+    id: 'primera-comunion',
+    name: 'Primera Comunión',
+    icon: 'heart-outline',
+    description: 'Celebra este sacramento especial con elegancia y recogimiento familiar.',
+    image: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80',
+    popular: true,
+  },
+  {
+    id: 'boda',
+    name: 'Boda / Matrimonio',
+    icon: 'diamond-outline',
+    description: 'Haz realidad el día más soñado de tu vida con los mejores proveedores.',
+    image: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80',
+    popular: true,
+  },
+  {
+    id: 'cumpleanos-infantil',
+    name: 'Cumpleaños Infantil',
+    icon: 'balloon-outline',
+    description: 'Diversión, magia, recreación y pastelería temática para los más pequeños.',
+    image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80',
+    popular: true,
+  },
+  {
+    id: 'quince-anos',
+    name: 'Fiesta de 15 Años',
+    icon: 'star-outline',
+    description: 'Una noche mágica e inolvidable con pista iluminada, vestidos y sonido de élite.',
+    image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=800&q=80',
+    popular: true,
+  },
+  {
+    id: 'baby-shower',
+    name: 'Baby Shower',
+    icon: 'gift-outline',
+    description: 'Da la bienvenida al nuevo miembro de la familia en un ambiente acogedor.',
+    image: 'https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=800&q=80',
+    popular: false,
+  },
+  {
+    id: 'graduacion',
+    name: 'Graduación',
+    icon: 'school-outline',
+    description: 'Reconoce el esfuerzo y triunfo académico con una gala de primer nivel.',
+    image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80',
+    popular: false,
+  },
+  {
+    id: 'empresarial',
+    name: 'Evento Empresarial / Corporativo',
+    icon: 'briefcase-outline',
+    description: 'Lanzamientos de producto, congresos, aniversarios corporativos y fin de año.',
+    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80',
+    popular: true,
+  },
+  {
+    id: 'aniversario',
+    name: 'Aniversario & Bautizo',
+    icon: 'wine-outline',
+    description: 'Reuniones íntimas y memorables para festejar momentos únicos de vida.',
+    image: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&q=80',
+    popular: false,
+  },
+];
